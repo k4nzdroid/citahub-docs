@@ -1166,6 +1166,7 @@ $ cita-cli scm QuotaManager setDefaultAQL \
 * 参数
 
     `uint` - The value to be setted
+    `address` - The address to be setted
 
 * 返回值
 
@@ -1176,6 +1177,7 @@ $ cita-cli scm QuotaManager setDefaultAQL \
 ```shell
 $ cita-cli scm QuotaManager setAQL \
     --quota-limit 0x0000000000000000000000000000000000000000000000000000000020000000 \
+    --address 0x2a08afc9adf9d3e5c1c69d07085fb1f4e641ea02 \
     --admin-private 0x5f0258a4778057a8a7d97809bd209055b2fbafa654ce7d31ec7191066b9225e6 \
     --url http://127.0.0.1:1337
 ```
